@@ -1,0 +1,327 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    margin: 8px;
+}
+@media(min-width:320px) and (max-width:460px)
+{
+    .container .header{
+        border: 2px solid white;
+        padding: 5px;
+        box-shadow: 5px 5px 5px 5px rgb(105, 95, 95);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 5px;
+        outline: none;
+    }
+    .header span{
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: darkblue;
+    }
+    .header .button a{
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: bold;
+        color: white;
+        margin-right: 3px;
+    }
+    .intro .img{
+        margin-inline: 50px;
+        margin-block: 10px;
+        width: 300px;
+        height: 300px;
+        border: 3px solid green;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+    .intro .img img{
+        width: 300px;
+        height: 300px;
+    }
+    .intro .myIntro h2{
+        text-align: center;
+        font-size: 1.9em;
+        font-weight: 800;
+    }
+    .intro .myIntro p{
+        margin-top: -10px;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+}
+@media(min-width:461px) and (max-width:700px)
+{
+    .container .header{
+        border: 2px solid white;
+        padding: 5px;
+        box-shadow: 5px 5px 5px 5px rgb(105, 95, 95);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 5px;
+        outline: none;
+    }
+    .header span{
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: darkblue;
+    }
+    .header .button a{
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: bold;
+        color: black;
+        margin-right: 3px;
+    }
+    .intro .img{
+        margin-inline: 160px;
+        margin-block: 15px;
+        width: 400px;
+        height: 300px;
+        border: 3px solid green;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+    .intro .img img{
+        width: 400px;
+        height: 300px;
+    }
+    .intro .myIntro h2{
+        text-align: center;
+        font-size: 1.9em;
+        font-weight: 800;
+    }
+    .intro .myIntro p{
+        margin-top: -10px;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+} 
+@media(min-width:701px) and (max-width:768px)
+{
+    .container .header{
+        border: 2px solid white;
+        padding: 5px;
+        box-shadow: 5px 5px 5px 5px rgb(105, 95, 95);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 5px;
+        outline: none;
+    }
+    .header span{
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: darkblue;
+    }
+    .header .button a{
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: bold;
+        color: black;
+        margin-right: 8px;
+    }
+    .container .intro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro .img{
+        margin-inline: 40px;
+        margin-block: 15px;
+        width: 350px;
+        height: 350px;
+        border: 3px solid white;
+        border-radius: 20px;
+        /* overflow: hidden; */
+    }
+    .intro .img img{
+        width: 350px;
+        height: 350px;
+        border-radius: 20px;
+    }
+    .intro .myIntro h2{
+        text-align: center;
+        font-size: 1.9em;
+        font-weight: 800;
+    }
+    .intro .myIntro p{
+        margin-top: -10px;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+}
+@media(min-width:769px) and (max-width:1024px)
+{
+    .container .header{
+        border: 2px solid white;
+        padding: 5px;
+        box-shadow: 5px 5px 5px 5px rgb(105, 95, 95);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 5px;
+        outline: none;
+    }
+    .header span{
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: darkblue;
+    }
+    .header .button a{
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: bold;
+        color: black;
+        margin-right: 12px;
+    }
+    .container .intro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro .img{
+        margin-right: 60px;
+        margin-block: 15px;
+        width: 350px;
+        height: 350px;
+        border: 3px solid white;
+        border-radius: 20px;
+        /* overflow: hidden; */
+    }
+    .intro .img img{
+        width: 350px;
+        height: 350px;
+        border-radius: 20px;
+    }
+    .intro .myIntro h2{
+        text-align: center;
+        font-size: 1.9em;
+        font-weight: 800;
+    }
+    .intro .myIntro p{
+        margin-top: -10px;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+}
+@media(min-width:1025px) and (max-width:1440px)
+{
+    .container .header{
+        border: 2px solid white;
+        padding: 5px;
+        box-shadow: 5px 5px 5px 5px rgb(105, 95, 95);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 5px;
+        outline: none;
+    }
+    .header span{
+        font-size: 1.2em;
+        font-weight: bolder;
+        color: darkblue;
+    }
+    .header .button a{
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: bold;
+        color: black;
+        margin-right: 15px;
+    }
+    .container .intro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro .img{
+        margin-right: 300px;
+        margin-block: 15px;
+        width: 350px;
+        height: 350px;
+        border: 3px solid white;
+        border-radius: 20px;
+        /* overflow: hidden; */
+    }
+    .intro .img img{
+        width: 350px;
+        height: 350px;
+        border-radius: 20px;
+    }
+    .intro .myIntro h2{
+        text-align: center;
+        font-size: 1.9em;
+        font-weight: 800;
+    }
+    .intro .myIntro p{
+        margin-top: -10px;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+}
+@media(min-width:1441px) and (max-width:2560px)
+{
+    .container .header{
+        border: 2px solid white;
+        padding: 5px;
+        box-shadow: 7px 7px 7px 7px rgb(105, 95, 95);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 5px;
+        outline: none;
+    }
+    .header span{
+        font-size: 3em;
+        font-weight: bolder;
+        color: darkblue;
+    }
+    .header .button a{
+        text-decoration: none;
+        font-size: 2.8em;
+        font-weight: bold;
+        color: rgb(25, 78, 193);
+        margin-right: 25px;
+
+    }
+    .container .intro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro .img{
+        margin-right: 300px;
+        margin-block: 15px;
+        width: 950px;
+        height: 800px;
+        border: 3px solid white;
+        border-radius: 20px;
+        /* overflow: hidden; */
+    }
+    .intro .img img{
+        width: 950px;
+        height: 800px;
+        border-radius: 20px;
+    }
+    .intro .myIntro h2{
+        text-align: center;
+        font-size: 4em;
+        font-weight: 800;
+    }
+    .intro .myIntro p{
+        margin-top: -10px;
+        text-align: center;
+        font-size: 3em;
+        font-weight: 600;
+    }
+}
